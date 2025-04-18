@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&family=Montserrat:wght@500;600;700;800&family=Roboto:wght@300;400;500;700&family=Lato:wght@300;400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -102,15 +102,15 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-artisan-primary text-white hover:bg-blue-700 px-4 py-2 rounded-md font-medium transition-colors;
+    @apply bg-servigo-primary text-white hover:bg-blue-700 px-4 py-2 rounded-md font-medium transition-colors;
   }
 
   .btn-secondary {
-    @apply bg-artisan-secondary text-white hover:bg-orange-600 px-4 py-2 rounded-md font-medium transition-colors;
+    @apply bg-servigo-secondary text-white hover:bg-orange-600 px-4 py-2 rounded-md font-medium transition-colors;
   }
 
   .btn-outline {
-    @apply border border-artisan-primary text-artisan-primary hover:bg-artisan-primary hover:text-white px-4 py-2 rounded-md font-medium transition-colors;
+    @apply border border-servigo-primary text-servigo-primary hover:bg-servigo-primary hover:text-white px-4 py-2 rounded-md font-medium transition-colors;
   }
 
   .card-hover {

@@ -1,3 +1,4 @@
+
 import Navbar from '@/components/layout/Navbar';
 import Hero from '@/components/home/Hero';
 import ServiceCategories from '@/components/home/ServiceCategories';
@@ -18,9 +19,9 @@ const Index = () => {
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Comment ça marche</h2>
+              <h2 className="text-3xl font-bold text-servigo-dark mb-4">Comment ça marche</h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Artisan-Link simplifie l'accès aux services professionnels à domicile en quelques étapes
+                ServiGo simplifie l'accès aux services professionnels à domicile en quelques étapes
               </p>
             </div>
             
@@ -30,25 +31,25 @@ const Index = () => {
                   step: 1,
                   title: "Choisissez un service",
                   description: "Sélectionnez le type de service dont vous avez besoin",
-                  icon: <svg className="w-10 h-10 text-artisan-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>
+                  icon: <svg className="w-10 h-10 text-servigo-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>
                 },
                 {
                   step: 2,
                   title: "Décrivez votre besoin",
                   description: "Indiquez votre adresse, la date et décrivez votre besoin",
-                  icon: <svg className="w-10 h-10 text-artisan-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>
+                  icon: <svg className="w-10 h-10 text-servigo-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>
                 },
                 {
                   step: 3,
                   title: "Choisissez un prestataire",
                   description: "Sélectionnez parmi les prestataires disponibles",
-                  icon: <svg className="w-10 h-10 text-artisan-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                  icon: <svg className="w-10 h-10 text-servigo-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
                 },
                 {
                   step: 4,
                   title: "Intervention et paiement",
                   description: "Un agent intervient et le paiement est sécurisé",
-                  icon: <svg className="w-10 h-10 text-artisan-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" /></svg>
+                  icon: <svg className="w-10 h-10 text-servigo-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" /></svg>
                 }
               ].map((item) => (
                 <div key={item.step} className="flex flex-col items-center text-center">
@@ -56,11 +57,11 @@ const Index = () => {
                     <div className="w-20 h-20 bg-blue-50 rounded-full flex items-center justify-center mb-4">
                       {item.icon}
                     </div>
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-artisan-secondary rounded-full flex items-center justify-center text-white font-bold">
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-servigo-secondary rounded-full flex items-center justify-center text-white font-bold">
                       {item.step}
                     </div>
                   </div>
-                  <h3 className="text-xl font-medium text-gray-900 mb-2">{item.title}</h3>
+                  <h3 className="text-xl font-medium text-servigo-dark mb-2">{item.title}</h3>
                   <p className="text-gray-600">{item.description}</p>
                 </div>
               ))}
@@ -68,7 +69,7 @@ const Index = () => {
             
             <div className="text-center mt-12">
               <Link to="/services">
-                <Button className="bg-artisan-primary hover:bg-blue-700">
+                <Button className="bg-servigo-primary hover:bg-blue-700">
                   Demander un service maintenant
                 </Button>
               </Link>
@@ -77,10 +78,10 @@ const Index = () => {
         </section>
         
         {/* Benefits section */}
-        <section className="py-16 bg-gray-50">
+        <section className="py-16 bg-servigo-light">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Pourquoi choisir Artisan-Link</h2>
+              <h2 className="text-3xl font-bold text-servigo-dark mb-4">Pourquoi choisir ServiGo</h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 Nous sélectionnons les meilleurs professionnels pour vous garantir un service de qualité
               </p>
@@ -91,22 +92,22 @@ const Index = () => {
                 {
                   title: "Prestataires vérifiés",
                   description: "Tous nos prestataires sont vérifiés et qualifiés",
-                  icon: <ShieldCheck className="h-10 w-10 text-artisan-primary" />
+                  icon: <ShieldCheck className="h-10 w-10 text-servigo-primary" />
                 },
                 {
                   title: "Interventions rapides",
                   description: "Obtenez une assistance dans les meilleurs délais",
-                  icon: <Clock className="h-10 w-10 text-artisan-primary" />
+                  icon: <Clock className="h-10 w-10 text-servigo-primary" />
                 },
                 {
                   title: "Service client réactif",
                   description: "Une équipe à votre écoute 7j/7",
-                  icon: <MessageSquare className="h-10 w-10 text-artisan-primary" />
+                  icon: <MessageSquare className="h-10 w-10 text-servigo-primary" />
                 },
                 {
                   title: "Satisfaction garantie",
                   description: "Des professionnels qui s'engagent sur la qualité",
-                  icon: <UserCheck className="h-10 w-10 text-artisan-primary" />
+                  icon: <UserCheck className="h-10 w-10 text-servigo-primary" />
                 }
               ].map((item, i) => (
                 <div key={i} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 card-hover">
@@ -114,7 +115,7 @@ const Index = () => {
                     <div className="mb-4">
                       {item.icon}
                     </div>
-                    <h3 className="text-xl font-medium text-gray-900 mb-2">{item.title}</h3>
+                    <h3 className="text-xl font-medium text-servigo-dark mb-2">{item.title}</h3>
                     <p className="text-gray-600">{item.description}</p>
                   </div>
                 </div>
@@ -127,7 +128,7 @@ const Index = () => {
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Ce que disent nos clients</h2>
+              <h2 className="text-3xl font-bold text-servigo-dark mb-4">Ce que disent nos clients</h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 Découvrez les témoignages des personnes qui nous font confiance
               </p>
@@ -138,7 +139,7 @@ const Index = () => {
                 {
                   name: "Marie Dupont",
                   role: "Particulier",
-                  comment: "J'ai fait appel à un plombier via Artisan-Link pour un problème urgent. Intervention rapide et de qualité. Je recommande !",
+                  comment: "J'ai fait appel à un plombier via ServiGo pour un problème urgent. Intervention rapide et de qualité. Je recommande !",
                   rating: 5,
                   image: "https://randomuser.me/api/portraits/women/68.jpg"
                 },
@@ -152,12 +153,12 @@ const Index = () => {
                 {
                   name: "Sophie Leroy",
                   role: "Particulier",
-                  comment: "J'utilise régulièrement Artisan-Link pour différents services à domicile. La qualité est toujours au rendez-vous et le suivi impeccable.",
+                  comment: "J'utilise régulièrement ServiGo pour différents services à domicile. La qualité est toujours au rendez-vous et le suivi impeccable.",
                   rating: 4,
                   image: "https://randomuser.me/api/portraits/women/42.jpg"
                 }
               ].map((item, i) => (
-                <div key={i} className="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100">
+                <div key={i} className="bg-servigo-light p-6 rounded-xl shadow-sm border border-gray-100">
                   <div className="flex items-center mb-4">
                     <img
                       src={item.image}
@@ -165,7 +166,7 @@ const Index = () => {
                       className="w-12 h-12 rounded-full object-cover mr-4"
                     />
                     <div>
-                      <h4 className="font-semibold text-gray-900">{item.name}</h4>
+                      <h4 className="font-semibold text-servigo-dark">{item.name}</h4>
                       <p className="text-sm text-gray-500">{item.role}</p>
                     </div>
                   </div>
@@ -188,15 +189,15 @@ const Index = () => {
         </section>
         
         {/* CTA section */}
-        <section className="py-16 bg-gradient-to-r from-artisan-primary to-blue-700 text-white">
+        <section className="py-16 bg-gradient-to-r from-servigo-primary to-blue-700 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-4">Prêt à trouver un artisan qualifié ?</h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Rejoignez les milliers de clients satisfaits qui font confiance à notre plateforme pour tous leurs besoins à domicile.
+              Vos besoins. Nos pros. Votre confort.
             </p>
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="/services">
-                <Button className="w-full sm:w-auto bg-white text-artisan-primary hover:bg-blue-50 h-12 px-6 text-base">
+                <Button className="w-full sm:w-auto bg-white text-servigo-primary hover:bg-blue-50 h-12 px-6 text-base">
                   Demander un service
                 </Button>
               </Link>
@@ -214,9 +215,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Artisan<span className="text-artisan-secondary">Link</span></h3>
+              <h3 className="text-xl font-bold mb-4">Servi<span className="text-servigo-secondary">Go</span></h3>
               <p className="text-gray-400">
-                La plateforme qui connecte les particuliers avec des professionnels qualifiés pour tous les services à domicile.
+                Vos besoins. Nos pros. Votre confort.
               </p>
             </div>
             <div>
@@ -247,7 +248,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400">© 2025 ArtisanLink. Tous droits réservés.</p>
+            <p className="text-gray-400">© 2025 ServiGo. Tous droits réservés.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white">
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

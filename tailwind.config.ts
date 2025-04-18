@@ -63,12 +63,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-                artisan: {
-                    primary: '#2563EB',
-                    secondary: '#F97316',
-                    light: '#F8FAFC',
-                    dark: '#1E293B',
-                    gray: '#64748B'
+                servigo: {
+                    primary: '#1E4D8C',    // Bleu Majorelle profond
+                    secondary: '#F97316',  // Orange
+                    light: '#F8FAFC',      // Gris clair (fond)
+                    dark: '#475569',       // Gris ardoise (texte)
+                    success: '#22C55E',    // Vert menthe (validations)
+                    error: '#EF4444'       // Rouge léger (alertes)
                 }
 			},
 			borderRadius: {
@@ -109,8 +110,8 @@ export default {
                 'slide-up': 'slide-up 0.5s ease-out'
 			},
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-                display: ['Montserrat', 'sans-serif']
+                sans: ['Open Sans', 'Roboto', 'Lato', 'sans-serif'],
+                display: ['Poppins', 'Montserrat', 'Tajawal', 'sans-serif']
             }
 		}
 	},
