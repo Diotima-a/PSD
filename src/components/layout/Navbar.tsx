@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
             {isLoggedIn ? (
               <div className="flex items-center">
-                <Link to="/dashboard" className="flex items-center text-sm font-medium text-gray-700 hover:text-artisan-primary">
+                <Link to="/dashboard" className="flex items-center text-sm font-medium text-gray-700 text-artisan-primary">
                   <UserCircle className="mr-1 h-5 w-5" />
                   Mon espace
                 </Link>
@@ -42,12 +42,12 @@ const Navbar = () => {
             ) : (
               <div className="flex items-center space-x-4">
                 <Link to="/login">
-                  <Button variant="ghost" className="text-artisan-primary hover:text-artisan-primary hover:bg-blue-50">
+                  <Button variant="ghost" className="text-artisan-primary text-artisan-primary hover:bg-blue-50">
                     Connexion
                   </Button>
                 </Link>
                 <Link to="/register">
-                  <Button className="bg-artisan-primary hover:bg-blue-700">
+                  <Button className="bg-artisan-primary bg-blue-700">
                     Inscription
                   </Button>
                 </Link>
@@ -95,7 +95,7 @@ const Navbar = () => {
                 </div>
                 <div className="ml-3">
                   <div className="text-base font-medium text-gray-800">Nom d'utilisateur</div>
-                  <Link to="/dashboard" className="text-sm font-medium text-artisan-primary hover:text-artisan-primary">
+                  <Link to="/dashboard" className="text-sm font-medium text-artisan-primary text-artisan-primary">
                     Mon espace
                   </Link>
                 </div>
@@ -106,7 +106,7 @@ const Navbar = () => {
                   <Button variant="outline" className="w-full">Connexion</Button>
                 </Link>
                 <Link to="/register" className="w-full">
-                  <Button className="w-full bg-artisan-primary hover:bg-blue-700">Inscription</Button>
+                  <Button className="w-full bg-artisan-primary bg-blue-700">Inscription</Button>
                 </Link>
               </div>
             )}

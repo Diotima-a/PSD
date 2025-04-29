@@ -17,12 +17,12 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="/services">
-                <Button className="w-full sm:w-auto bg-artisan-primary hover:bg-blue-700 h-12 px-6 text-base">
+                <Button className="w-full sm:w-auto bg-artisan-primary bg-blue-700 h-12 px-6 text-base">
                   Demander un service
                 </Button>
               </Link>
               <Link to="/providers">
-                <Button variant="outline" className="w-full sm:w-auto border-artisan-primary text-artisan-primary hover:bg-artisan-primary hover:text-white h-12 px-6 text-base">
+                <Button variant="outline" className="w-full sm:w-auto border-artisan-primary text-artisan-primary bg-artisan-primary h-12 px-6 text-base">
                   Voir les prestataires
                 </Button>
               </Link>
