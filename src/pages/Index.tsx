@@ -202,7 +202,7 @@ const Index = () => {
                 </Button>
               </Link>
               <Link to="/register">
-                <Button variant="outline" className="w-full sm:w-auto border-white text-white hover:bg-white/10 h-12 px-6 text-base">
+                <Button variant="outline" className="w-full sm:w-auto border-white text-servigo-primary h-12 px-6 text-base">
                   Créer un compte
                 </Button>
               </Link>

@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const isLoggedIn = false; // Replace with actual auth state
+  const isLoggedIn = false;
 
   return (
     <nav className="bg-white shadow-sm">
@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <span className="text-artisan-primary font-display text-xl font-bold">Artisan<span className="text-artisan-secondary">Link</span></span>
+              <span className="text-artisan-primary font-display text-xl font-bold">Servi<span className="text-artisan-secondary">Go</span></span>
             </Link>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <Link to="/" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300">
